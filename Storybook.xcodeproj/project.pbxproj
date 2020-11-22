@@ -13,6 +13,7 @@
 		182384382563B4F4003D8994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182384362563B4F4003D8994 /* Main.storyboard */; };
 		1823843A2563B4FF003D8994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182384392563B4FF003D8994 /* Assets.xcassets */; };
 		1823843D2563B4FF003D8994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823843B2563B4FF003D8994 /* LaunchScreen.storyboard */; };
+		1823844A2563BF98003D8994 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182384492563BF98003D8994 /* StoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		182384392563B4FF003D8994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1823843C2563B4FF003D8994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1823843E2563B4FF003D8994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182384492563BF98003D8994 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				182384322563B4F4003D8994 /* SceneDelegate.swift */,
 				182384342563B4F4003D8994 /* ViewController.swift */,
 				182384362563B4F4003D8994 /* Main.storyboard */,
+				182384492563BF98003D8994 /* StoryViewController.swift */,
 				182384392563B4FF003D8994 /* Assets.xcassets */,
 				1823843B2563B4FF003D8994 /* LaunchScreen.storyboard */,
 				1823843E2563B4FF003D8994 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1823844A2563BF98003D8994 /* StoryViewController.swift in Sources */,
 				182384352563B4F4003D8994 /* ViewController.swift in Sources */,
 				182384312563B4F4003D8994 /* AppDelegate.swift in Sources */,
 				182384332563B4F4003D8994 /* SceneDelegate.swift in Sources */,
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naomi.Storybook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naomi.storybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naomi.Storybook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naomi.storybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
